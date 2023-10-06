@@ -33,8 +33,8 @@ form {
 #utd-menu {
     padding: 48px 0 0;
     z-index: 2;
-    background: url(BG.jpeg) 10% no-repeat;
-    background-size:   cover ;
+    background: url(BG.jpeg) no-repeat;
+    background-size: cover ;
     position: absolute;
     top: 0;
     left: 0;
