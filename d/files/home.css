@@ -280,7 +280,6 @@ form {
     .search-bar .utdBarSearchCtrl {
         margin: 0;
         padding: 0;
-        -webkit-appearance: none;
         border-radius: 0;
         border: none;
         box-shadow: none;
