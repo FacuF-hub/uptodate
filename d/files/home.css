@@ -4,9 +4,11 @@ html {
 
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    text-align: center;
     width: 100%;
-    overflow: hidden;
-    font-size: 16px;
+    overflow:  hidden;
+    font-size: 18px;
     margin: 0;
 }
 
@@ -146,10 +148,10 @@ form {
     opacity: 0.8;  filter: alpha(opacity=80);
     background: #ffffff;
     font-size: .95em;
-    font-weight: 500;
+    font-weight: 600;
     border-top: none;
     position: relative;
-    padding: 35px 3px 3px 3px;
+    padding: 20px 3px 3px 3px;
 }
 
 .isDesktop #utd-menu #utd-menu-content .utd-menu-tier3 .utd-menu li {
@@ -165,11 +167,11 @@ form {
 
 .utd-menu li a {
     text-decoration: none;
-    color: #333 !important;
+    color: #000000 !important;
     display: block;
     padding: 16px 30px 16px 15px;
     margin-left: 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ff0000;
 }
 
 .isDesktop #utd-menu .utd-menu li a {
