@@ -122,8 +122,8 @@ form {
 .utd-menu {
     list-style-type: none;
     margin: 20px 0;
-    padding: 0;
-    border-bottom: 3px solid #ddd;
+    padding: 10px 0px 0px 0px;
+    border-bottom: 0px solid #ddd;
 }
 
 
@@ -140,24 +140,17 @@ form {
 }
 
 .utd-menu ol, .utd-menu ul {
+    font-size: 100%;
     list-style: none;
 }
 
-.utd-menu li {
-    opacity: 0.7;  filter: alpha(opacity=80);
-    background: #ffffff;
-    font-size: .95em;
-    font-weight: 600;
-    border-top: none;
-    position: relative;
-    padding: 20px 3px 3px 3px;
-}
+
 
 .isDesktop #utd-menu #utd-menu-content .utd-menu-tier3 .utd-menu li {
     font-weight: 500;
     float: right;
     margin-bottom: 0;
-    padding: 7px 10px 7px 0;
+    padding: 10px 10px 7px 0;
     border: none;
     display: inline;
     background: 0 0;
@@ -168,11 +161,27 @@ form {
     text-decoration: none;
     color: #000000 !important ;
     display: block;
-    padding: 16px 30px 16px 15px;
+    padding: 20px 30px 16px 15px;
     margin-left: 10px;
-    border-bottom: 1px solid #ff0000;
 }
-
+#utd-menu .utd-menu-content button {
+    position: relative;
+    padding: 16px 30px 16px 15px;
+    background-color:#ffffff;
+    opacity: 80%;
+    width: 100%;
+    border-radius: 8px;
+}
+#utd-menu .utd-menu-content span {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.isDesktop #utd-menu-content span{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
 .isDesktop #utd-menu .utd-menu li a {
     color: #00905a!important;
     display: inline;
@@ -204,7 +213,6 @@ form {
     background: url(angle-right.png) 100% 50% no-repeat;
     -webkit-background-size: 1.5em 1.5em;
 }
-
 
 
 
